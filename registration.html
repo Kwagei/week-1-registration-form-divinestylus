@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <table align="center">
+            <h1 align="center">Registration Form</h1>
+            <form method="post" action="">
+                <tr>
+                    <td>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" placeholder="Blama Doe" required>
+                        <br><br>
+                    </td> 
+                </tr>
+                   
+                <tr>
+                    <td>
+                        <label for="phone">Phone: </label>
+                        <input type="tel" id="phone" placeholder="(+231)-000-0000" required>
+                        <br><br>
+                        </td> 
+                    </tr>
+                    
+                <tr>
+                    <td>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" placeholder="blamadoe@gmail.com" required>
+                        <br><br>
+                    </td>
+                        
+                    </tr>
+                    
+                <tr>
+                    <td>
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" placeholder="********" required>
+                        <br><br>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <span>Gender: </span>
+                        <input type="radio" id="male" name="gender" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" required>
+                        <label for="female">Female</label>
+                        <br><br>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <label for="date">Date of Birth: </label>
+                        <input type="date" id="date" required>
+                        <br><br>
+                    </td>   
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <label for="counties">County: </label>
+                        <select id="counties" name="counties">
+                            <option value="Lofa">Lofa</option>
+                            <option value="Nimba">Nimba</option>
+                            <option value="Bong">Bong</option>
+                            <option value="Montserrado">Montserrado</option>
+                            <option value="Grand Kru">Grand Kru</option>
+                            <option value="Bomi">Bomi</option>
+                            <option value="Rivercess">Rivercess</option>
+                            <option value="RiverGee">RiverGee</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Grand Gedeh">Grand Gedeh</option>
+                            <option value="Margibi">Margibi</option>
+                        </select>
+                        <br><br>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <span>Hobbies: </span>
+                        <input type="checkbox" id="reading" required>
+                        <label for="reading">Reading</label>
+                        <input type="checkbox" id="chess" required>
+                        <label for="chess">Chess</label>
+                        <input type="checkbox" id="coding" required>
+                        <label for="coding">Coding</label>
+                        <br><br>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <input type="submit"> 
+                    </td>
+                </tr>
+            </form>
+        </table>   
+    </body>
+</html>
